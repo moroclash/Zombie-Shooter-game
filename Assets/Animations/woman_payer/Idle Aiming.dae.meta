@@ -1,0 +1,243 @@
+fileFormatVersion: 2
+guid: 414609a4beb54284d8b2ceca63600785
+timeCreated: 1523475524
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: arissa_Head
+    100002: arissa_HeadTop_End
+    100004: arissa_Hips
+    100006: arissa_LeftArm
+    100008: arissa_LeftFoot
+    100010: arissa_LeftFootToeBase_End
+    100012: arissa_LeftForeArm
+    100014: arissa_LeftHand
+    100016: arissa_LeftHandIndex1
+    100018: arissa_LeftHandIndex2
+    100020: arissa_LeftHandIndex3
+    100022: arissa_LeftHandIndex4
+    100024: arissa_LeftHandIndex5
+    100026: arissa_LeftHandMiddle1
+    100028: arissa_LeftHandMiddle2
+    100030: arissa_LeftHandMiddle3
+    100032: arissa_LeftHandMiddle4
+    100034: arissa_LeftHandMiddle5
+    100036: arissa_LeftHandPinky1
+    100038: arissa_LeftHandPinky2
+    100040: arissa_LeftHandPinky3
+    100042: arissa_LeftHandPinky4
+    100044: arissa_LeftHandPinky5
+    100046: arissa_LeftHandRing1
+    100048: arissa_LeftHandRing2
+    100050: arissa_LeftHandRing3
+    100052: arissa_LeftHandRing4
+    100054: arissa_LeftHandRing5
+    100056: arissa_LeftHandThumb1
+    100058: arissa_LeftHandThumb2
+    100060: arissa_LeftHandThumb3
+    100062: arissa_LeftHandThumb4
+    100064: arissa_LeftHandThumb5
+    100066: arissa_LeftLeg
+    100068: arissa_LeftShoulder
+    100070: arissa_LeftToeBase
+    100072: arissa_LeftUpLeg
+    100074: arissa_Neck
+    100076: arissa_Neck1
+    100078: arissa_RightArm
+    100080: arissa_RightFoot
+    100082: arissa_RightFootToeBase_End
+    100084: arissa_RightForeArm
+    100086: arissa_RightHand
+    100088: arissa_RightHandIndex1
+    100090: arissa_RightHandIndex2
+    100092: arissa_RightHandIndex3
+    100094: arissa_RightHandIndex4
+    100096: arissa_RightHandIndex5
+    100098: arissa_RightHandMiddle1
+    100100: arissa_RightHandMiddle2
+    100102: arissa_RightHandMiddle3
+    100104: arissa_RightHandMiddle4
+    100106: arissa_RightHandMiddle5
+    100108: arissa_RightHandPinky1
+    100110: arissa_RightHandPinky2
+    100112: arissa_RightHandPinky3
+    100114: arissa_RightHandPinky4
+    100116: arissa_RightHandPinky5
+    100118: arissa_RightHandRing1
+    100120: arissa_RightHandRing2
+    100122: arissa_RightHandRing3
+    100124: arissa_RightHandRing4
+    100126: arissa_RightHandRing5
+    100128: arissa_RightHandThumb1
+    100130: arissa_RightHandThumb2
+    100132: arissa_RightHandThumb3
+    100134: arissa_RightHandThumb4
+    100136: arissa_RightHandThumb5
+    100138: arissa_RightLeg
+    100140: arissa_RightShoulder
+    100142: arissa_RightToeBase
+    100144: arissa_RightUpLeg
+    100146: arissa_Spine
+    100148: arissa_Spine1
+    100150: arissa_Spine2
+    100152: //RootNode
+    400000: arissa_Head
+    400002: arissa_HeadTop_End
+    400004: arissa_Hips
+    400006: arissa_LeftArm
+    400008: arissa_LeftFoot
+    400010: arissa_LeftFootToeBase_End
+    400012: arissa_LeftForeArm
+    400014: arissa_LeftHand
+    400016: arissa_LeftHandIndex1
+    400018: arissa_LeftHandIndex2
+    400020: arissa_LeftHandIndex3
+    400022: arissa_LeftHandIndex4
+    400024: arissa_LeftHandIndex5
+    400026: arissa_LeftHandMiddle1
+    400028: arissa_LeftHandMiddle2
+    400030: arissa_LeftHandMiddle3
+    400032: arissa_LeftHandMiddle4
+    400034: arissa_LeftHandMiddle5
+    400036: arissa_LeftHandPinky1
+    400038: arissa_LeftHandPinky2
+    400040: arissa_LeftHandPinky3
+    400042: arissa_LeftHandPinky4
+    400044: arissa_LeftHandPinky5
+    400046: arissa_LeftHandRing1
+    400048: arissa_LeftHandRing2
+    400050: arissa_LeftHandRing3
+    400052: arissa_LeftHandRing4
+    400054: arissa_LeftHandRing5
+    400056: arissa_LeftHandThumb1
+    400058: arissa_LeftHandThumb2
+    400060: arissa_LeftHandThumb3
+    400062: arissa_LeftHandThumb4
+    400064: arissa_LeftHandThumb5
+    400066: arissa_LeftLeg
+    400068: arissa_LeftShoulder
+    400070: arissa_LeftToeBase
+    400072: arissa_LeftUpLeg
+    400074: arissa_Neck
+    400076: arissa_Neck1
+    400078: arissa_RightArm
+    400080: arissa_RightFoot
+    400082: arissa_RightFootToeBase_End
+    400084: arissa_RightForeArm
+    400086: arissa_RightHand
+    400088: arissa_RightHandIndex1
+    400090: arissa_RightHandIndex2
+    400092: arissa_RightHandIndex3
+    400094: arissa_RightHandIndex4
+    400096: arissa_RightHandIndex5
+    400098: arissa_RightHandMiddle1
+    400100: arissa_RightHandMiddle2
+    400102: arissa_RightHandMiddle3
+    400104: arissa_RightHandMiddle4
+    400106: arissa_RightHandMiddle5
+    400108: arissa_RightHandPinky1
+    400110: arissa_RightHandPinky2
+    400112: arissa_RightHandPinky3
+    400114: arissa_RightHandPinky4
+    400116: arissa_RightHandPinky5
+    400118: arissa_RightHandRing1
+    400120: arissa_RightHandRing2
+    400122: arissa_RightHandRing3
+    400124: arissa_RightHandRing4
+    400126: arissa_RightHandRing5
+    400128: arissa_RightHandThumb1
+    400130: arissa_RightHandThumb2
+    400132: arissa_RightHandThumb3
+    400134: arissa_RightHandThumb4
+    400136: arissa_RightHandThumb5
+    400138: arissa_RightLeg
+    400140: arissa_RightShoulder
+    400142: arissa_RightToeBase
+    400144: arissa_RightUpLeg
+    400146: arissa_Spine
+    400148: arissa_Spine1
+    400150: arissa_Spine2
+    400152: //RootNode
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
