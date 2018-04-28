@@ -72,6 +72,7 @@
      <Compile Include="Assets\scripts\player_control.cs" />
      <Compile Include="Assets\scripts\PlayerManager.cs" />
      <Compile Include="Assets\scripts\playerPropertice.cs" />
+     <Compile Include="Assets\scripts\spawnEnemies.cs" />
      <Compile Include="Assets\scripts\webon_contro.cs" />
      <None Include="Assets\Models\gunes\Heavy\JMO Assets\WarFX\Shaders\WFX_S AlphaBlend Scroll.shader" />
      <None Include="Assets\Models\gunes\Heavy\JMO Assets\WarFX\Shaders\WFX_S Particle AddSoft A8.shader" />

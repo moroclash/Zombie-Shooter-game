@@ -8,7 +8,7 @@ public class enamiesProperties : MonoBehaviour {
     public int score = 10;
     public int coin = 5;
     public playerPropertice player;
-
+    public float destroywaiteTime;
     public int waitedTimeToDestroyEnime = 5; 
 	// Use this for initialization
 	void Start () {
@@ -27,7 +27,7 @@ public class enamiesProperties : MonoBehaviour {
         {
             player.updatePlayerScore(score);
             player.AddPlayerCoin(coin);
-            Invoke("Died",7);
+            Invoke("Died", destroywaiteTime);
         }
     }
 
