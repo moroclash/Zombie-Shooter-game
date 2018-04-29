@@ -28,6 +28,7 @@ public class playerPropertice : MonoBehaviour {
     {
         an.SetBool("hit", false);
         an.SetBool("death", false);
+        
     }
 
     public void updatePlayerHelth(float impact)
