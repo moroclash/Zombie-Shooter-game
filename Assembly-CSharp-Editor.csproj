@@ -53,6 +53,8 @@
   <ItemGroup>
      <Compile Include="Assets\Models\gunes\Heavy\JMO Assets\Cartoon FX Easy Editor\Editor\CFXEasyEditor.cs" />
      <Compile Include="Assets\Models\gunes\Heavy\JMO Assets\WarFX\Editor\CFX_SpawnSystemEditor.cs" />
+     <Compile Include="Assets\prefabs\fireCars\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Editor\CustomMaterialEditor.cs" />
+     <Compile Include="Assets\prefabs\fireCars\Particle Dissolve Shader by Moonflower Carnivore\Shaders\unity5\Editor\Shader_softrim_dissolve.cs" />
      <Compile Include="Assets\scenes\levels\forwstsecen\NatureStarterKit2\Materials\Editor\ImageEffects\AntialiasingEditor.cs" />
      <Compile Include="Assets\scenes\levels\forwstsecen\NatureStarterKit2\Materials\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
      <Compile Include="Assets\scenes\levels\forwstsecen\NatureStarterKit2\Materials\Editor\ImageEffects\BloomEditor.cs" />
@@ -156,6 +158,12 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/moro/AppData/LocalLow/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-1.0.56-Runtime">
+ <HintPath>F:/Graphics - Unity/unity-proj/zombi-killer-final/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="TextMeshPro-2017.3-1.0.56-Editor">
+ <HintPath>F:/Graphics - Unity/unity-proj/zombi-killer-final/Assets/TextMesh Pro/Plugins/Editor DLL/TextMeshPro-2017.3-1.0.56-Editor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>

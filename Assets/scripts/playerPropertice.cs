@@ -27,12 +27,12 @@ public class playerPropertice : MonoBehaviour {
     void FixedUpdate()
     {
         an.SetBool("hit", false);
-        an.SetBool("death", false);
-        
+        //an.SetBool("death", false);
     }
 
     public void updatePlayerHelth(float impact)
     {
+        an.SetBool("death", false);
         if (playerHelth > impact)
         {
             an.SetBool("hit", true);
@@ -88,6 +88,5 @@ public class playerPropertice : MonoBehaviour {
         coin.text = playerCoins.ToString();
         helth.text = playerHelth.ToString();
     }
-
 
 }

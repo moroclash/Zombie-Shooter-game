@@ -7,12 +7,16 @@ public class enamiesProperties : MonoBehaviour {
     public float impact = 20f;
     public int score = 10;
     public int coin = 5;
-    public playerPropertice player;
+    private playerPropertice player;
     public float destroywaiteTime;
-    public int waitedTimeToDestroyEnime = 5; 
+    public int waitedTimeToDestroyEnime = 5;
+    public AudioClip DIE;
+    private AudioSource Source;
+
 	// Use this for initialization
 	void Start () {
-		
+        player = GameObject.Find("ely_player").GetComponent<playerPropertice>();
+        Source = GetComponent<AudioSource>();
 	}
 	
 	// Update is called once per frame
@@ -28,6 +32,8 @@ public class enamiesProperties : MonoBehaviour {
             player.updatePlayerScore(score);
             player.AddPlayerCoin(coin);
             Invoke("Died", destroywaiteTime);
+            Source.PlayOneShot(DIE, 1f);
+
         }
     }
 

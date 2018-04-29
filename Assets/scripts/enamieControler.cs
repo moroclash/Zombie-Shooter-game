@@ -6,7 +6,7 @@ using UnityEngine.AI;
 public class enamieControler : MonoBehaviour {
 
     public float lookReadias = 10f;
-    public Transform target;
+    private Transform target;
     public NavMeshAgent agent;
     public float stopingPoint = 1f ;
     private enamiesProperties enimeiesProb;
@@ -19,7 +19,7 @@ public class enamieControler : MonoBehaviour {
 
     // Use this for initialization
 	void Start () {
-        target = PlayerManager.instance.player.transform;
+        target = GameObject.Find("ely_player").GetComponent<Transform>();
         agent = GetComponent<NavMeshAgent>();
         An = GetComponent<Animator>();
         enimeiesProb = GetComponent<enamiesProperties>();

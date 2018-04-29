@@ -16,14 +16,15 @@ public class webon_contro : MonoBehaviour {
     public ParticleSystem muzzleFlash;
     public float fireRate = 15f;
     public float impactForce = 30f;
-
+    public AudioClip shootSound;
     public float nextTimeToFire = 0f;
+    private AudioSource Source;
 
     // Use this for initialization
     void Start()
     {
         webon_transform = GetComponent<Transform>();
-
+        Source = GetComponent<AudioSource>();
         //webon_transform.transform.position = new Vector3(7.511475f,9.046994f,-6.523208f);
         //webon_transform.transform.rotation = new Quaternion(-57.717f,91.50101f,104.021f,0);
         //webon_transform.transform.localScale = new Vector3(400,400,400);  
@@ -44,6 +45,7 @@ public class webon_contro : MonoBehaviour {
         Ray ray = Camera.main.ScreenPointToRay(shootingPoint.transform.position);
         RaycastHit hit;
         muzzleFlash.Play();
+        Source.PlayOneShot(shootSound, 1f);
 
         if(Physics.Raycast(ray,out hit,range,layerOfenaimes))
         {
